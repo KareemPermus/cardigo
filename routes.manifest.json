@@ -1,0 +1,82 @@
+[
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/boards",
+    "response_shape": "array",
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/boards/:id",
+    "response_shape": {
+      "columns": "array",
+      "created_at": "datetime",
+      "id": "int",
+      "title": "string"
+    },
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/health",
+    "response_shape": {
+      "status": "string"
+    },
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/tasks/:id",
+    "request_body": null,
+    "response_shape": null,
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/tasks",
+    "request_body": null,
+    "response_shape": null,
+    "sample_body": null,
+    "sample_params": null,
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/columns/:id",
+    "request_body": null,
+    "response_shape": null,
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/columns",
+    "request_body": null,
+    "response_shape": null,
+    "sample_body": null,
+    "sample_params": null,
+    "success_status": 200
+  }
+]
